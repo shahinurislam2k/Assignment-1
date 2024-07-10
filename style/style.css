@@ -27,6 +27,26 @@ body{
     text-align: center;
 }
 
+.card-title{
+    font-size: 24px;
+    font-weight: bolder;
+    color: #0D1321;
+
+}
+.card-description{
+    font-size: 16px;
+    font-weight: 200;
+    color: #0D1321;
+
+}
+
+.card-btn{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+
+}
+
 /* main */
 main{
     width: 1140px;
@@ -203,4 +223,62 @@ main{
 
 
 /* My Current Target side style */
+.target-content-container{
+    margin-bottom: 111px;
+}
 
+.target-text-container{
+    margin-bottom: 48px;
+}
+
+.target-text-title{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.target-card-container{
+    display: flex;
+    gap: 24px;
+}
+
+.target-card-html{
+    width: 364px;
+    background-color: #fff6f3;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: start;
+}
+
+.target-card-css{
+    width: 364px;
+    background-color:#f2f6fe;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: start;
+}
+
+.target-card-js{
+    width: 364px;
+    background-color: #fffdf2;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px;
+    border-radius: 16px;
+    text-align: start;
+}
+
+.target-card img{
+    width: 56px;
+    height: 56px;
+    
+}
