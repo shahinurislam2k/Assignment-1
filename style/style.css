@@ -29,7 +29,7 @@ body{
 
 .card-title{
     font-size: 24px;
-    font-weight: bolder;
+    font-weight:bolder;
     color: #0D1321;
 
 }
@@ -120,7 +120,7 @@ main{
 }
 
 
-/* Development Side style */
+/* Development style */
 .development-section-container{
     background-color: #fafafb;
     border-radius: 16px;
@@ -194,7 +194,7 @@ main{
 }
 
 
-/* My Inspiration side style */
+/* My Inspiration style */
 .inspiration-content-container{
     display: flex;
     flex-direction: column;
@@ -222,7 +222,7 @@ main{
 }
 
 
-/* My Current Target side style */
+/* My Current Target style */
 .target-content-container{
     margin-bottom: 111px;
 }
@@ -281,4 +281,45 @@ main{
     width: 56px;
     height: 56px;
     
+}
+
+
+/* My Next Target style */
+.next-target-content-container{
+    margin-bottom: 49px;
+}
+.next-target-text-container{
+    margin-bottom: 48px;
+}
+
+.next-target-text-title{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.next-target-card-container{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    
+}
+
+.next-target-card{
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    gap:32px;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 0px 2px rgb(228, 223, 223);
+}
+
+.next-target-text{
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+
 }
