@@ -12,6 +12,11 @@ body{
     font-family: "Azeret Mono", monospace;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+
 /* shared style */
 .title{
     font-size: 48px;
