@@ -328,7 +328,7 @@ main{
 .support-section-container{
     height: 313px;
     padding: 48px 64px;
-    background-image: url('/images/handshake.jpg');
+    background-image: url('../images/handshake.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
